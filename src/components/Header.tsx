@@ -6,14 +6,14 @@ export function Header () {
         <nav>
             <div style={{marginLeft: 'auto', display: 'flex', gap: '15px'}}>
                 <Link to='/'>☕</Link>
-                <Link to='/cart'>Carrinho</Link>
+                <Link to='/Cart'>Carrinho</Link>
             </div>
 
             <div style={{marginLeft: '20px'}}>
                 <SearchBar />
             </div>
 
-            <Link to='/login'>Login</Link>
+            <Link to='/Login'>Login</Link>
         </nav>
     )
 }
