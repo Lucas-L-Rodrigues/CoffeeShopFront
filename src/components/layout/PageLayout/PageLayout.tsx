@@ -10,7 +10,6 @@ export function PageLayout({ children }: PageLayoutProps) {
     return (
         <div className={styles.pageLayout}>
             <Header />
-
             <div className={styles.pageLayoutContent}>{children}</div>
         </div>
     );
