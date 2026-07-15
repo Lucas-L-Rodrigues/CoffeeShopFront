@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Header } from "../Header";
-import { styles } from "./PageLayout.modules.css";
+import  styles  from "./PageLayout.module.css";
 
 type PageLayoutProps = {
     children: ReactNode;
