@@ -28,7 +28,13 @@
     gap: 1rem;
 }
 
-.navigationLink {}
+.navigationLink {
+    position: relative;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--color-coffee-700);
+    transition: color var(--transition-fast);
+}
 
 .navigationLink:hover {}
 
