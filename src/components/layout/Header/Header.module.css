@@ -6,3 +6,23 @@
     border-bottom: 1px solid var(--color-cream-200);
     backdrop-filter: blur(12px);
 }
+
+.content {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.logo {}
+
+.navigation {}
+
+.navigationLink {}
+
+.navigationLink:hover {}
+
+.active {}
+
+.active::after {}
