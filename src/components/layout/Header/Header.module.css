@@ -15,7 +15,12 @@
     gap: 2rem;
 }
 
-.logo {}
+.logo {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--color-coffee-900);
+    letter-spacing: -0.03em;
+}
 
 .navigation {}
 
