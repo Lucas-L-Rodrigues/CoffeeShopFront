@@ -40,6 +40,8 @@
     color: var(--color-coffee-950);
 }
 
-.active {}
+.active {
+    color: var(--color-coffee-950);
+}
 
 .active::after {}
