@@ -22,7 +22,11 @@
     letter-spacing: -0.03em;
 }
 
-.navigation {}
+.navigation {
+    display: flex;
+    allign-items: center;
+    gap: 1rem;
+}
 
 .navigationLink {}
 
