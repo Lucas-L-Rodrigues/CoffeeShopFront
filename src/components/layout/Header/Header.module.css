@@ -36,7 +36,9 @@
     transition: color var(--transition-fast);
 }
 
-.navigationLink:hover {}
+.navigationLink:hover {
+    color: var(--color-coffee-950);
+}
 
 .active {}
 
